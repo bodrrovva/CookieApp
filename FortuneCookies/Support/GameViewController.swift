@@ -15,15 +15,15 @@ class GameViewController: UIViewController {
         super.viewDidLoad()
         
         if let view = self.view as! SKView? {
-            // Load the SKScene from 'GameScene.sks'
-            if let scene = SKScene(fileNamed: "GameScene") {
-                // Set the scale mode to scale to fit the window
-                scene.scaleMode = .aspectFill
-                
-                // Present the scene
-                view.presentScene(scene)
-            }
             
+            let scene = MainScene(size: self.view.bounds.size)
+                
+                scene.scaleMode = .aspectFill
+                scene.size = self.view.bounds.size
+               
+                view.presentScene(scene)
+            
+            //отвечает за рендер картинок
             view.ignoresSiblingOrder = true
             
             view.showsFPS = true
@@ -31,12 +31,12 @@ class GameViewController: UIViewController {
         }
     }
 
+    override var shouldAutorotate: Bool {
+        return true
+    }
+
     override var supportedInterfaceOrientations: UIInterfaceOrientationMask {
-        if UIDevice.current.userInterfaceIdiom == .phone {
-            return .allButUpsideDown
-        } else {
-            return .all
-        }
+        return .portrait
     }
 
     override var prefersStatusBarHidden: Bool {

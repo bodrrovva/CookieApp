@@ -7,24 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		848EA476290144CB00214343 /* Cookies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848EA475290144CB00214343 /* Cookies.swift */; };
+		848EA47A290155C600214343 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 848EA479290155C600214343 /* Main.storyboard */; };
+		848EA47E2901596000214343 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D148D928F8111600A1586C /* GameViewController.swift */; };
+		848EA4A729015E3800214343 /* HUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848EA4A629015E3800214343 /* HUD.swift */; };
+		848EA4A92901844F00214343 /* DetailScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848EA4A82901844F00214343 /* DetailScene.swift */; };
 		84D148D228F8111600A1586C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D148D128F8111600A1586C /* AppDelegate.swift */; };
 		84D148D428F8111600A1586C /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 84D148D328F8111600A1586C /* GameScene.sks */; };
-		84D148D628F8111600A1586C /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 84D148D528F8111600A1586C /* Actions.sks */; };
-		84D148D828F8111600A1586C /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D148D728F8111600A1586C /* GameScene.swift */; };
-		84D148DA28F8111600A1586C /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D148D928F8111600A1586C /* GameViewController.swift */; };
-		84D148DD28F8111600A1586C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84D148DB28F8111600A1586C /* Main.storyboard */; };
+		84D148D828F8111600A1586C /* MainScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D148D728F8111600A1586C /* MainScene.swift */; };
 		84D148DF28F8111700A1586C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84D148DE28F8111700A1586C /* Assets.xcassets */; };
 		84D148E228F8111700A1586C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84D148E028F8111700A1586C /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		848EA475290144CB00214343 /* Cookies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cookies.swift; sourceTree = "<group>"; };
+		848EA479290155C600214343 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		848EA4A629015E3800214343 /* HUD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HUD.swift; sourceTree = "<group>"; };
+		848EA4A82901844F00214343 /* DetailScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailScene.swift; sourceTree = "<group>"; };
 		84D148CE28F8111600A1586C /* FortuneCookies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FortuneCookies.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84D148D128F8111600A1586C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84D148D328F8111600A1586C /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		84D148D528F8111600A1586C /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
-		84D148D728F8111600A1586C /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		84D148D728F8111600A1586C /* MainScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScene.swift; sourceTree = "<group>"; };
 		84D148D928F8111600A1586C /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
-		84D148DC28F8111600A1586C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		84D148DE28F8111700A1586C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84D148E128F8111700A1586C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -40,6 +44,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		84D03402290291ED004CB624 /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				84D148D728F8111600A1586C /* MainScene.swift */,
+				848EA4A82901844F00214343 /* DetailScene.swift */,
+			);
+			path = Scene;
+			sourceTree = "<group>";
+		};
+		84D03403290291F6004CB624 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				848EA4A629015E3800214343 /* HUD.swift */,
+				848EA475290144CB00214343 /* Cookies.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		84D034042902920D004CB624 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				84D148DE28F8111700A1586C /* Assets.xcassets */,
+				84D148D128F8111600A1586C /* AppDelegate.swift */,
+				84D148D928F8111600A1586C /* GameViewController.swift */,
+				84D148D328F8111600A1586C /* GameScene.sks */,
+				84D148E028F8111700A1586C /* LaunchScreen.storyboard */,
+				848EA479290155C600214343 /* Main.storyboard */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
 		84D148C528F8111600A1586C = {
 			isa = PBXGroup;
 			children = (
@@ -59,14 +94,9 @@
 		84D148D028F8111600A1586C /* FortuneCookies */ = {
 			isa = PBXGroup;
 			children = (
-				84D148D128F8111600A1586C /* AppDelegate.swift */,
-				84D148D328F8111600A1586C /* GameScene.sks */,
-				84D148D528F8111600A1586C /* Actions.sks */,
-				84D148D728F8111600A1586C /* GameScene.swift */,
-				84D148D928F8111600A1586C /* GameViewController.swift */,
-				84D148DB28F8111600A1586C /* Main.storyboard */,
-				84D148DE28F8111700A1586C /* Assets.xcassets */,
-				84D148E028F8111700A1586C /* LaunchScreen.storyboard */,
+				84D03402290291ED004CB624 /* Scene */,
+				84D03403290291F6004CB624 /* Classes */,
+				84D034042902920D004CB624 /* Support */,
 			);
 			path = FortuneCookies;
 			sourceTree = "<group>";
@@ -129,11 +159,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84D148DD28F8111600A1586C /* Main.storyboard in Resources */,
 				84D148D428F8111600A1586C /* GameScene.sks in Resources */,
 				84D148DF28F8111700A1586C /* Assets.xcassets in Resources */,
 				84D148E228F8111700A1586C /* LaunchScreen.storyboard in Resources */,
-				84D148D628F8111600A1586C /* Actions.sks in Resources */,
+				848EA47A290155C600214343 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,23 +173,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84D148D828F8111600A1586C /* GameScene.swift in Sources */,
-				84D148DA28F8111600A1586C /* GameViewController.swift in Sources */,
+				848EA47E2901596000214343 /* GameViewController.swift in Sources */,
+				848EA4A729015E3800214343 /* HUD.swift in Sources */,
+				84D148D828F8111600A1586C /* MainScene.swift in Sources */,
+				848EA476290144CB00214343 /* Cookies.swift in Sources */,
 				84D148D228F8111600A1586C /* AppDelegate.swift in Sources */,
+				848EA4A92901844F00214343 /* DetailScene.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		84D148DB28F8111600A1586C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				84D148DC28F8111600A1586C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		84D148E028F8111700A1586C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -308,9 +332,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = anastasiia.muntianu.FortuneCookies;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -336,9 +363,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = anastasiia.muntianu.FortuneCookies;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
