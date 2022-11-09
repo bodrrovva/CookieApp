@@ -19,11 +19,11 @@ class GameViewController: UIViewController {
             let scene = MainScene(size: self.view.bounds.size)
                 
                 scene.scaleMode = .aspectFill
+                scene.setScale(0.001)
                 scene.size = self.view.bounds.size
                
                 view.presentScene(scene)
             
-            //отвечает за рендер картинок
             view.ignoresSiblingOrder = true
             
             view.showsFPS = true

@@ -13,9 +13,6 @@ class HUD: SKNode {
     
     func configureUI(sizeScreen: CGSize, textForTapLabel: String) {
         
-//        arrow.position = CGPoint(x: 0, y: -250)
-//        addChild(arrow)
-        
         tapLabel.text = textForTapLabel
         tapLabel.fontColor = .black
         tapLabel.fontSize = 30
