@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		51FEDCC1292E835E00A74880 /* ParentScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51FEDCC0292E835E00A74880 /* ParentScene.swift */; };
+		51FEDCC3292FA9D100A74880 /* sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 51FEDCC2292FA9D100A74880 /* sound.mp3 */; };
 		848EA476290144CB00214343 /* Cookies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848EA475290144CB00214343 /* Cookies.swift */; };
 		848EA47A290155C600214343 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 848EA479290155C600214343 /* Main.storyboard */; };
 		848EA47E2901596000214343 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D148D928F8111600A1586C /* GameViewController.swift */; };
@@ -20,6 +22,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		51FEDCC0292E835E00A74880 /* ParentScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParentScene.swift; sourceTree = "<group>"; };
+		51FEDCC2292FA9D100A74880 /* sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = sound.mp3; path = ../../../../Downloads/sound.mp3; sourceTree = "<group>"; };
 		848EA475290144CB00214343 /* Cookies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cookies.swift; sourceTree = "<group>"; };
 		848EA479290155C600214343 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		848EA4A629015E3800214343 /* HUD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HUD.swift; sourceTree = "<group>"; };
@@ -47,6 +51,7 @@
 		84D03402290291ED004CB624 /* Scene */ = {
 			isa = PBXGroup;
 			children = (
+				51FEDCC0292E835E00A74880 /* ParentScene.swift */,
 				84D148D728F8111600A1586C /* MainScene.swift */,
 				848EA4A82901844F00214343 /* DetailScene.swift */,
 			);
@@ -65,6 +70,7 @@
 		84D034042902920D004CB624 /* Support */ = {
 			isa = PBXGroup;
 			children = (
+				51FEDCC2292FA9D100A74880 /* sound.mp3 */,
 				84D148DE28F8111700A1586C /* Assets.xcassets */,
 				84D148D128F8111600A1586C /* AppDelegate.swift */,
 				84D148D928F8111600A1586C /* GameViewController.swift */,
@@ -160,6 +166,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				84D148D428F8111600A1586C /* GameScene.sks in Resources */,
+				51FEDCC3292FA9D100A74880 /* sound.mp3 in Resources */,
 				84D148DF28F8111700A1586C /* Assets.xcassets in Resources */,
 				84D148E228F8111700A1586C /* LaunchScreen.storyboard in Resources */,
 				848EA47A290155C600214343 /* Main.storyboard in Resources */,
@@ -173,6 +180,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51FEDCC1292E835E00A74880 /* ParentScene.swift in Sources */,
 				848EA47E2901596000214343 /* GameViewController.swift in Sources */,
 				848EA4A729015E3800214343 /* HUD.swift in Sources */,
 				84D148D828F8111600A1586C /* MainScene.swift in Sources */,
@@ -319,6 +327,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = QDDTUPX3P5;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Cookie!";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -350,6 +359,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = QDDTUPX3P5;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Cookie!";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;

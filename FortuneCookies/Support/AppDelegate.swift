@@ -7,9 +7,11 @@
 
 import UIKit
 
+let screen = UIScreen.main.bounds.size
+
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
+    
     var window: UIWindow?
 
 
